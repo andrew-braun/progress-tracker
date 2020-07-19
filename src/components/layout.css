@@ -1,5 +1,6 @@
 :root {
     --main-bg: hsla(300, 7%, 3%, 1); /* Black */
+    --secondary-bg: hsla(300, 7%, 20%, 1); /* Black */
     --main-text: hsla(120, 4%, 91%, 1); /* Gray */
     --accent-1: hsla(222, 100%, 61%, 1); /* Blue */
     --accent-2: hsla(356, 74%, 52%, 1); /* Red */
@@ -8,9 +9,12 @@
 
 html {
     font-size: 62.5%;
+    width: 100%;
+    margin: 0;
 }
 
 body { 
+    margin: 0;
     background-color: var(--main-bg);
     font-size: 1.4rem;
     color: var(--main-text);
@@ -37,14 +41,12 @@ a:hover {
 }
 
 /* --- HEADER --- */
-
-/* --- nav --- */
-
 .site-header {
     display: flex;
     align-items: center;
-    margin: 2rem 1rem;
-    padding: .5rem 2rem;
+    justify-content: space-around;
+    padding: 2rem 0;
+    background-color: var(--secondary-bg);
 }
 
 .site-title-link {
@@ -55,6 +57,7 @@ a:hover {
     margin: 0;
 }
 
+/* --- nav --- */
 .site-nav {
     margin-left: 10%;
 }
@@ -75,4 +78,29 @@ a:hover {
 
 .active-nav-link {
     color: var(--accent-2);
+}
+
+/* ---FOOTER--- */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 0;
+    background-color: var(--secondary-bg);
+}
+
+.social-link {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+/* MAIN CONTAINER */
+
+.main-container {
+    text-align: center;
 }

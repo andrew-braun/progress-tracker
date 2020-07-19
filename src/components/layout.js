@@ -38,7 +38,18 @@ export default function Layout({ children }) {
       </header>
       {children}
       <footer className="site-footer">
-        <h3>Footer</h3>
+        <h3>Check out my other stuff:</h3>
+        <div className="external-link-container">
+            <a className="social-link" href="https://andrewbraun.dev">
+                My website
+            </a>
+            <a className="social-link" href="https://github.com/andrew-braun">
+                GitHub
+            </a>
+            <a className="social-link" href="codepen.io/andrewbraun">
+                CodePen
+            </a>
+        </div>
       </footer>
     </React.Fragment>
   )
