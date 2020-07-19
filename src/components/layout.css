@@ -1,0 +1,78 @@
+:root {
+    --main-bg: hsla(300, 7%, 3%, 1); /* Black */
+    --main-text: hsla(120, 4%, 91%, 1); /* Gray */
+    --accent-1: hsla(222, 100%, 61%, 1); /* Blue */
+    --accent-2: hsla(356, 74%, 52%, 1); /* Red */
+    --accent-3: hsla(44, 98%, 62%, 1); /* Yellow */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body { 
+    background-color: var(--main-bg);
+    font-size: 1.4rem;
+    color: var(--main-text);
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+a {
+    color: var(--main-text);
+}
+
+a:hover {
+    color: var(--accent-1);
+}
+
+/* --- HEADER --- */
+
+/* --- nav --- */
+
+.site-header {
+    display: flex;
+    align-items: center;
+    margin: 2rem 1rem;
+    padding: .5rem 2rem;
+}
+
+.site-title-link {
+    text-decoration: none;
+}
+
+.site-title-link h1 {
+    margin: 0;
+}
+
+.site-nav {
+    margin-left: 10%;
+}
+
+.site-nav-list {
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-nav-link {
+    display: block;
+    padding: 0 .5rem;
+    font-size: 2.2rem;
+}
+
+.active-nav-link {
+    color: var(--accent-2);
+}
