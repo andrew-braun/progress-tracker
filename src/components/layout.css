@@ -16,6 +16,7 @@ html {
 body { 
     margin: 0;
     background-color: var(--main-bg);
+    font-family: "Lucida Console", Monaco, "Courier New", Courier, monospace;
     font-size: 1.4rem;
     color: var(--main-text);
 }
@@ -72,7 +73,7 @@ a:hover {
 
 .site-nav-link {
     display: block;
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
     font-size: 2.2rem;
 }
 
@@ -93,10 +94,17 @@ footer {
     background-color: var(--secondary-bg);
 }
 
+.external-link-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .social-link {
     display: inline-block;
     padding: 1rem;
     font-size: 2rem;
+    text-align: center;
 }
 
 /* MAIN CONTAINER */

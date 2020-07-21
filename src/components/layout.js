@@ -38,7 +38,7 @@ export default function Layout({ children }) {
       </header>
       {children}
       <footer className="site-footer">
-        <h3>Check out my other stuff:</h3>
+
         <div className="external-link-container">
             <a className="social-link" href="https://andrewbraun.dev">
                 My website
