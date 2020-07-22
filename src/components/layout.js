@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { useStaticQuery, Link, graphql } from "gatsby"
 import "./layout.css"
 
 const ListLink = props => (
@@ -15,28 +15,43 @@ const ListLink = props => (
 )
 
 export default function Layout({ children }) {
+  const data = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+          }
+        }
+      }
+    `
+  )
   return (
-    <React.Fragment>
-      <header className="site-header">
-        <div className="site-title">
-          <Link to="/" className="site-title-link">
-            <h1>Progress Tracker</h1>
-          </Link>
-        </div>
-        <nav className="site-nav">
-          <ul className="site-nav-list">
-            <ListLink to="/" 
-                id="nav-about-link">
-              Home
-            </ListLink>
-            <ListLink to="/about" 
-                id="nav-about-link">
-              About
-            </ListLink>
-          </ul>
-        </nav>
-      </header>
-      {children}
+    <div class="site-container">
+      <aside class="left-bar">
+        <header className="site-header">
+          <div className="site-title">
+            <Link to="/" className="site-title-link">
+              <h1>{data.site.siteMetadata.title}</h1>
+            </Link>
+          </div>
+          <nav className="site-nav">
+            <ul className="site-nav-list">
+              <ListLink to="/" 
+                  id="nav-about-link">
+                Home
+              </ListLink>
+              <ListLink to="/about" 
+                  id="nav-about-link">
+                About
+              </ListLink>
+            </ul>
+          </nav>
+        </header>
+      </aside>
+      <div className="blog-feed">
+        {children}
+      </div>
       <footer className="site-footer">
 
         <div className="external-link-container">
@@ -51,6 +66,6 @@ export default function Layout({ children }) {
             </a>
         </div>
       </footer>
-    </React.Fragment>
+    </div>
   )
 }

@@ -5,8 +5,12 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: `Andrew Braun's learning tracker`,
+  },
   /* Your site config here */
   pathPrefix: "/progress-tracker",
 
   plugins: [],
 }
+
