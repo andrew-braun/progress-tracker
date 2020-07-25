@@ -27,27 +27,36 @@ export default function Layout({ children }) {
     `
   )
   return (
-    <div class="site-container">
-      <aside class="left-bar">
-        <header className="site-header">
-          <div className="site-title">
-            <Link to="/" className="site-title-link">
-              <h1>{data.site.siteMetadata.title}</h1>
-            </Link>
-          </div>
-          <nav className="site-nav">
-            <ul className="site-nav-list">
-              <ListLink to="/" 
-                  id="nav-about-link">
-                Home
-              </ListLink>
-              <ListLink to="/about" 
-                  id="nav-about-link">
-                About
-              </ListLink>
-            </ul>
-          </nav>
-        </header>
+    <div class="site-container">        
+      <aside class="left-bar left-bar-toggle">
+        <label class="hamburger-menu-label" htmlFor="hamburger-menu-button" id="hamburger-menu-label">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </label>
+        <input type="checkbox" class="hamburger-menu-button" id="hamburger-menu-button">
+        </input>
+        <div class="left-bar-inner-container">
+          <header className="site-header">
+            <div className="site-title">
+              <Link to="/" className="site-title-link">
+                <h1>{data.site.siteMetadata.title}</h1>
+              </Link>
+            </div>
+            <nav className="site-nav">
+              <ul className="site-nav-list">
+                <ListLink to="/" 
+                    id="nav-about-link">
+                  Home
+                </ListLink>
+                <ListLink to="/about" 
+                    id="nav-about-link">
+                  About
+                </ListLink>
+              </ul>
+            </nav>
+          </header>
+        </div>
       </aside>
       <div className="blog-feed">
         {children}
