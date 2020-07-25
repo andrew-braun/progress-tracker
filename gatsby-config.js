@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Andrew Braun's learning tracker`,
+    title: `A/B Progress Tracker`,
   },
   /* Your site config here */
   pathPrefix: "/progress-tracker",
