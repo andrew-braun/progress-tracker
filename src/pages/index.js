@@ -5,14 +5,12 @@ import ActivityLog from "../components/activityLog"
 export default function Home() {
   return (
     <Layout>
-      <div className="main-container" id="home-main">
-        <main className="main-container">
+      <main className="main-container" id="home-main">
           <h2>What's Andrew learning?</h2>
           <section className="activity-log-container">
             {<ActivityLog />}
           </section>
-        </main>
-      </div>
+      </main>
     </Layout>
   )
 }

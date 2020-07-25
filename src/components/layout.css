@@ -71,6 +71,8 @@ a:hover {
 }
 
 .left-bar-inner-container {
+	position: fixed;
+	max-width: 20vw;
 	height: 100%;
 	background-color: var(--main-text);
 	opacity: 0.95;

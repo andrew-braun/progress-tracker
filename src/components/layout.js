@@ -31,7 +31,7 @@ export default function Layout({ children }) {
       <aside class="left-bar left-bar-toggle">
         <input type="checkbox" class="hamburger-menu-button" id="hamburger-menu-button">
         </input>
-        <label class="hamburger-menu-label" htmlFor="hamburger-menu-button" id="hamburger-menu-label">
+        <label class="hamburger-menu-label" htmlFor="hamburger-menu-button" id="hamburger-menu-label" >
           <span class="hamburger-bar"></span>
           <span class="hamburger-bar"></span>
           <span class="hamburger-bar"></span>

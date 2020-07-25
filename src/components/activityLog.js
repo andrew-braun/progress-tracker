@@ -25,7 +25,9 @@ export default function ActivityLog() {
     const data = dataQuery.allTrackerJson.edges;
     return (
         <div className="activity-log">
-            <LogEntry logData={data} />
+            {data.map(( { node }, index) => (
+                <LogEntry logData={node} index={index}/>
+            ))}
         </div>
     )
 }
