@@ -70,7 +70,7 @@ export default function Layout({ children }) {
             <a className="social-link" href="https://github.com/andrew-braun">
                 GitHub
             </a>
-            <a className="social-link" href="codepen.io/andrewbraun">
+            <a className="social-link" href="https://codepen.io/andrewbraun">
                 CodePen
             </a>
         </div>

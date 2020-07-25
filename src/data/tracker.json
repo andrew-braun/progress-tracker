@@ -1,0 +1,22 @@
+[
+    {
+        "date": "25-07-2020",
+        "mainCategory": "Code",
+        "subCategory": "JavaScript",
+        "focus": "Gatsby",
+        "description": "Worked on creating a website to track my learning activity using Gatsby.",
+        "hours": 5,
+        "confidence": 0.5,
+        "keywords": "JS, JavaScript, Gatsby, GraphQL, React, static site"
+    },
+    {
+        "date": "25-07-2020",
+        "mainCategory": "Language",
+        "subCategory": "Spanish",
+        "focus": "Reading",
+        "description": "Finished three Duolingo lessons.",
+        "hours": 0.4,
+        "confidence": 0.7,
+        "keywords": ""
+    }
+]
