@@ -43,6 +43,23 @@ a:hover {
 	color: var(--accent-1);
 }
 
+button {
+	border: none;
+	padding: 0.5em 1em;
+	background: var(--accent-1);
+	border-radius: 1em;
+	color: var(--main-text);
+}
+
+button:hover {
+	cursor: pointer;
+	background: var(--accent-3);
+	color: var(--main-bg);
+}
+
+.hidden {
+	display: none;
+}
 /* ---GRID LAYOUT--- */
 .site-container {
 	display: grid;
