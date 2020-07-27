@@ -3,6 +3,7 @@
 :root {
 	--main-bg: hsla(300, 7%, 3%, 1); /* Black */
 	--secondary-bg: hsla(300, 7%, 20%, 1); /* Black */
+	--tertiary-bg: hsla(187, 75%, 36%, 1); /* Teal*/
 	--main-text: hsla(120, 4%, 91%, 1); /* Gray */
 	--accent-1: hsla(222, 100%, 61%, 1); /* Blue */
 	--accent-2: hsla(356, 74%, 52%, 1); /* Red */
