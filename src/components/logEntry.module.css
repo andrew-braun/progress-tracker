@@ -95,7 +95,38 @@
     display: flex;
 }
 
+/* ---Description modal--- */
+.description-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    overflow: auto;
+    background: hsla(187, 75%, 36%, 0.6);
+}
+
+.entry-description {
+    background: var(--secondary-bg);
+    width: 85%;
+    height: 85%;
+    margin: auto;
+    padding: 1rem;
+    overflow: auto;
+}
+
 .description-text {
     padding: 1rem .5rem;
+    text-align: left;
+}
+.modalToggle {
+    display: none;
+}
+
+.description-text {
+    padding: 1rem 0.5rem;
     text-align: left;
 }

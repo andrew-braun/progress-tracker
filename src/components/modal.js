@@ -1,5 +1,4 @@
 import React from "react"
-import ReactDOM from "react-dom";
 import styles from "./modal.module.css"
 
 const Modal = ({ show, hide, children }) => show ? (

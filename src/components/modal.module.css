@@ -26,30 +26,18 @@
     overflow-x: hidden;
     overflow-y: hidden;
     outline: 0;
-    animation: fadeindown .4s;
   }
   
   @keyframes fadeindown {
     0% {
         margin-top: -10%;
-        opacity: 20%;
+        opacity: 0.2;
     }
     100% {
         margin-top: 0%;
-        opacity: 100%;
+        opacity: 1;
     }
 }
-
-.m-fadeOut {
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s linear 300ms, opacity 300ms;
-  }
-.m-fadeIn {
-    visibility: visible;
-    opacity: 1;
-    transition: visibility 0s linear 0s, opacity 300ms;
-  }
 
   .modal {
     position: relative;
@@ -63,8 +51,7 @@
     overflow-x: hidden;
     overflow-y: auto;
     z-index: 13;
-    animation: fadeindownout 1s linear forwards;
-    transition: animation 1s ease-in-out;
+    animation: fadeindown .3s linear forwards;
   }
   
   .modal-header {

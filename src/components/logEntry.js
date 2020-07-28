@@ -1,7 +1,6 @@
 import React, { useState } from "react"
-// import cn from "classnames"
 import Modal from "./modal"
-import useModal from "./hooks/useModal";
+import useModal from "./hooks/useModal"
 import styles from "./logEntry.module.css"
 
 export default function LogEntry(props) {
@@ -30,7 +29,8 @@ export default function LogEntry(props) {
 					<div className={styles.entryConfidence}>
 						{`Confidence: ${props.logData.confidence * 100}%`}
 					</div>
-					<button className={styles.descriptionButton}
+					<button 
+						className={styles.descriptionButton}
 						onClick={toggle}>
 						Notes
 					</button>

@@ -1,10 +1,30 @@
 [
     {
+        "date": "28-07-2020",
+        "mainCategory": "Code",
+        "subCategory": "JavaScript",
+        "focus": "Gatsby",
+        "description": "Added a modal component to my progress tracker site",
+        "hours": 1.5,
+        "confidence": 0.45,
+        "keywords": ""
+    },
+    {
+        "date": "28-07-2020",
+        "mainCategory": "Language",
+        "subCategory": "Spanish",
+        "focus": "Reading",
+        "description": "Finished three Duolingo lessons.",
+        "hours": 0.4,
+        "confidence": 0.7,
+        "keywords": ""
+    },
+    {
         "date": "26-07-2020",
         "mainCategory": "Language",
         "subCategory": "Spanish",
         "focus": "Reading",
-        "description": "Finished three Duolingo lessons. Now I'm adding more content to this element so I can see how the text behaves when there's a lot of it and it overflows. I'm definitely going to need to make it a bit longer though. Okay, almost... y-overflow is just about to happen... and there it is!",
+        "description": "Finished three Duolingo lessons.",
         "hours": 0.4,
         "confidence": 0.7,
         "keywords": ""
