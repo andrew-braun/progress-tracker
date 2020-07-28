@@ -1,9 +1,11 @@
-import React from "react"
-import cn from "classnames"
+import React, { useState } from "react"
+// import cn from "classnames"
 import Modal from "./modal"
+import useModal from "./hooks/useModal";
 import styles from "./logEntry.module.css"
 
 export default function LogEntry(props) {
+	const {show, toggle} = useModal();
 	return (
 		<div className={styles.logEntry}>
 			<article className={styles.logEntryGrid}>
@@ -28,16 +30,18 @@ export default function LogEntry(props) {
 					<div className={styles.entryConfidence}>
 						{`Confidence: ${props.logData.confidence * 100}%`}
 					</div>
-					<button className={styles.descriptionButton}>Notes</button>
+					<button className={styles.descriptionButton}
+						onClick={toggle}>
+						Notes
+					</button>
 				</div>
 			</article>
-            <Modal>
-                <div className={styles.descriptionModal}>
-                    <div className={styles.entryDescription}>
-                        <span>{props.logData.description}</span>
-                    </div>
-                </div>
-            </Modal>
+			<Modal 
+				show={show}
+				hide={toggle}
+				>
+				<span className={styles.descriptionText}>{props.logData.description}</span>
+			</Modal>
 		</div>
 	)
 }

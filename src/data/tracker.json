@@ -4,7 +4,7 @@
         "mainCategory": "Language",
         "subCategory": "Spanish",
         "focus": "Reading",
-        "description": "Finished three Duolingo lessons.",
+        "description": "Finished three Duolingo lessons. Now I'm adding more content to this element so I can see how the text behaves when there's a lot of it and it overflows. I'm definitely going to need to make it a bit longer though. Okay, almost... y-overflow is just about to happen... and there it is!",
         "hours": 0.4,
         "confidence": 0.7,
         "keywords": ""
