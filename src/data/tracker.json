@@ -1,4 +1,53 @@
-[
+[   {
+    "date": "31-07-2020",
+    "mainCategory": "Code",
+    "subCategory": "Web development",
+    "focus": "WordPress",
+    "description": "Worked on bug fixes, CSS, WooCommerce for LokalTbilisi.com",
+    "hours": 1.25,
+    "confidence": 0.85,
+    "keywords": ""
+},
+    {
+    "date": "31-07-2020",
+    "mainCategory": "Code",
+    "subCategory": "JavaScript",
+    "focus": "Gatsby",
+    "description": "Worked on layout, MapBox for geobeermap.com",
+    "hours": 4.5,
+    "confidence": 0.75,
+    "keywords": ""
+},
+{
+    "date": "31-07-2020",
+    "mainCategory": "Language",
+    "subCategory": "Spanish",
+    "focus": "Reading",
+    "description": "Finished three Duolingo lessons.",
+    "hours": 0.35,
+    "confidence": 0.8,
+    "keywords": ""
+},
+    {
+    "date": "30-07-2020",
+    "mainCategory": "Code",
+    "subCategory": "JavaScript",
+    "focus": "React",
+    "description": "Worked on the final ZTM project: SmartBrain. Built out part of React-based frontend",
+    "hours": 2,
+    "confidence": 0.75,
+    "keywords": ""
+},
+{
+    "date": "30-07-2020",
+    "mainCategory": "Language",
+    "subCategory": "Spanish",
+    "focus": "Reading",
+    "description": "Finished three Duolingo lessons.",
+    "hours": 0.35,
+    "confidence": 0.8,
+    "keywords": ""
+},
     {
         "date": "28-07-2020",
         "mainCategory": "Code",
