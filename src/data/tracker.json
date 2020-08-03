@@ -1,4 +1,54 @@
 [   {
+    "date": "02-08-2020",
+    "mainCategory": "Language",
+    "subCategory": "Spanish",
+    "focus": "Reading",
+    "description": "Finished three Duolingo lessons.",
+    "hours": 0.35,
+    "confidence": 0.8,
+    "keywords": ""
+},
+    {
+    "date": "02-08-2020",
+    "mainCategory": "Code",
+    "subCategory": "JavaScript",
+    "focus": "React",
+    "description": "Finished Clarifai integration for SmartBrain (AI face-detection API website using Clarifai and Create-React-App)",
+    "hours": 4.5,
+    "confidence": 0.75,
+    "keywords": ""
+},
+    {
+    "date": "01-08-2020",
+    "mainCategory": "Language",
+    "subCategory": "Spanish",
+    "focus": "Reading",
+    "description": "Finished three Duolingo lessons.",
+    "hours": 0.35,
+    "confidence": 0.7,
+    "keywords": ""
+},
+    {
+    "date": "01-08-2020",
+    "mainCategory": "Code",
+    "subCategory": "JavaScript",
+    "focus": "React",
+    "description": "Worked on SmartBrain AI face-detection API website using Clarifai and Create-React-App",
+    "hours": 1,
+    "confidence": 0.8,
+    "keywords": ""
+},
+    {
+    "date": "01-08-2020",
+    "mainCategory": "Code",
+    "subCategory": "JavaScript",
+    "focus": "Gatsby",
+    "description": "Implemented Netlify CMS with custom post types for geobeermap.com",
+    "hours": 4,
+    "confidence": 0.7,
+    "keywords": ""
+},
+    {
     "date": "31-07-2020",
     "mainCategory": "Code",
     "subCategory": "Web development",
