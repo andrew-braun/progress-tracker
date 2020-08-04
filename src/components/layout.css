@@ -78,8 +78,7 @@ button:hover {
 
 .main-content {
 	grid-area: main-content;
-	margin-top: 1rem;
-	padding: 5%;
+	padding: 0 4%;
 	text-align: center;
 }
 

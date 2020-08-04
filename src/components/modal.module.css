@@ -70,6 +70,10 @@
 
   }
 
+.modal-close-button:hover {
+  background: var(--accent-2);
+}
+
   .button-default {
     background: var(--accent-2);
     color: #fff;
