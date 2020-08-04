@@ -11,6 +11,26 @@
     {
     "date": "02-08-2020",
     "mainCategory": "Code",
+    "subCategory": "JavaScript",
+    "focus": "Gatsby",
+    "description": "Set up basic andrewbraun.dev layout",
+    "hours": 1.5,
+    "confidence": 0.8,
+    "keywords": ""
+},
+    {
+    "date": "02-08-2020",
+    "mainCategory": "Language",
+    "subCategory": "Spanish",
+    "focus": "Reading",
+    "description": "Finished three Duolingo lessons.",
+    "hours": 0.35,
+    "confidence": 0.8,
+    "keywords": ""
+},
+    {
+    "date": "02-08-2020",
+    "mainCategory": "Code",
     "subCategory": "Web Development ",
     "focus": "Email",
     "description": "Set up email with andrewbraun.dev domain (now on Netlify) using improvmx.com",
