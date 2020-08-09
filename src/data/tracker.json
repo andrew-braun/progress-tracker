@@ -1,4 +1,64 @@
 [   {
+    "date": "08-08-2020",
+    "mainCategory": "Technology",
+    "subCategory": "Chatbot",
+    "focus": "DialogFlow",
+    "description": "Started building Dialogflow bot connected to AB Dev's Facebook messenger. Followed Jana Bergant's Udemy course.",
+    "hours": 1,
+    "confidence": 0.95,
+    "keywords": ""
+},
+    {
+    "date": "08-08-2020",
+    "mainCategory": "Code",
+    "subCategory": "JavaScript",
+    "focus": "React",
+    "description": "Set up login/registration for ZTM SmartBrain project. Learned React routing.",
+    "hours": 3.5,
+    "confidence": 0.75,
+    "keywords": ""
+},
+    {
+    "date": "08-08-2020",
+    "mainCategory": "Language",
+    "subCategory": "Spanish",
+    "focus": "Reading",
+    "description": "Finished three Duolingo lessons (present continuous tense)",
+    "hours": 0.3,
+    "confidence": 0.65,
+    "keywords": ""
+},
+{
+    "date": "07-08-2020",
+    "mainCategory": "Web Development",
+    "subCategory": "Wordpress",
+    "focus": "Optimization",
+    "description": "Worked on decreasing page load times for lokaltbilisi.com using Autoptimize, Asset Cleanup, Flying Pages, W3 Total Cache.",
+    "hours": 3.5,
+    "confidence": 0.8,
+    "keywords": ""
+},
+{
+    "date": "07-08-2020",
+    "mainCategory": "Code",
+    "subCategory": "JavaScript",
+    "focus": "Gatsby",
+    "description": "Implemented multiple map markers and sidebar dynamically generated from CMS-authored JSON files for geobeermap.com, built on Gatsby.",
+    "hours": 3.5,
+    "confidence": 0.85,
+    "keywords": ""
+},
+{
+    "date": "07-08-2020",
+    "mainCategory": "Language",
+    "subCategory": "Spanish",
+    "focus": "Reading",
+    "description": "Finished three Duolingo lessons.",
+    "hours": 0.45,
+    "confidence": 0.7,
+    "keywords": ""
+},
+    {
     "date": "02-08-2020",
     "mainCategory": "Language",
     "subCategory": "Spanish",
