@@ -5,9 +5,9 @@
 	--secondary-bg: hsla(300, 7%, 20%, 1); /* Black */
 	--tertiary-bg: hsla(187, 75%, 36%, 1); /* Teal*/
 	--main-text: hsla(120, 4%, 91%, 1); /* Gray */
-	--accent-1: hsla(222, 100%, 61%, 1); /* Blue */
+	--accent-1: hsla(222, 100%, 61%, .6); /* Blue */
 	--accent-2: hsla(356, 74%, 52%, 1); /* Red */
-	--accent-3: hsla(44, 98%, 62%, 1); /* Yellow */
+	--accent-3: hsla(44, 98%, 62%, .9); /* Yellow */
 }
 
 html {
@@ -18,7 +18,8 @@ html {
 
 body {
 	margin: 0;
-	background: linear-gradient(90deg, hsl(300, 7%, 3%), hsl(222, 100%, 61%));
+	/* background: linear-gradient(90deg, hsl(300, 7%, 3%), hsl(222, 100%, 61%)); */
+	background: var(--main-bg);
 	font-family: "Lucida Console", Monaco, "Courier New", Courier, monospace;
 	font-size: 1.4rem;
 	color: var(--main-text);
@@ -41,7 +42,7 @@ a {
 }
 
 a:hover {
-	color: var(--accent-1);
+	color: var(--accent-3);
 }
 
 button {
