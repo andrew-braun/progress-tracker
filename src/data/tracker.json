@@ -1,11 +1,22 @@
-[   {
-    "date": "08-08-2020",
-    "mainCategory": "Technology",
-    "subCategory": "Chatbot",
-    "focus": "DialogFlow",
-    "description": "Started building Dialogflow bot connected to AB Dev's Facebook messenger. Followed Jana Bergant's Udemy course.",
-    "hours": 1,
-    "confidence": 0.85,
+[
+    {
+    "date": "09-08-2020",
+    "mainCategory": "Code",
+    "subCategory": "JavaScript",
+    "focus": "Gatsby",
+    "description": "GeoBeerMap:Tried to trigger Leaflet.js (React-Leaflet) map popup on sidebar list item click. Started building sidebar filter.",
+    "hours": 2,
+    "confidence": 0.75,
+    "keywords": ""
+},
+    {
+    "date": "09-08-2020",
+    "mainCategory": "Language",
+    "subCategory": "Spanish",
+    "focus": "Reading",
+    "description": "Finished three Duolingo lessons",
+    "hours": 0.25,
+    "confidence": 0.8,
     "keywords": ""
 },
     {
@@ -14,7 +25,7 @@
     "subCategory": "JavaScript",
     "focus": "React",
     "description": "Set up login/registration for ZTM SmartBrain project. Learned React routing.",
-    "hours": 3.5,
+    "hours": 2,
     "confidence": 0.75,
     "keywords": ""
 },
