@@ -1,4 +1,33 @@
-[
+[   {
+    "date": "10-08-2020",
+    "mainCategory": "Web Development",
+    "subCategory": "WordPress",
+    "focus": "Optimization",
+    "description": "Found iconsmind.woff font file slowing down page load times; increased PageSpeed score",
+    "hours": 0.7,
+    "confidence": 0.9,
+    "keywords": ""
+},
+    {
+    "date": "10-08-2020",
+    "mainCategory": "Code",
+    "subCategory": "JavaScript",
+    "focus": "Gatsby",
+    "description": "GeoBeerMap.com: added filter buttons to a sidebar and used onClick handlers/useState hook to filter entries",
+    "hours": 3,
+    "confidence": 0.8,
+    "keywords": ""
+},
+    {
+    "date": "10-08-2020",
+    "mainCategory": "Language",
+    "subCategory": "Spanish",
+    "focus": "Reading",
+    "description": "Finished three Duolingo lessons",
+    "hours": 0.4,
+    "confidence": 0.8,
+    "keywords": ""
+},
     {
     "date": "09-08-2020",
     "mainCategory": "Code",
