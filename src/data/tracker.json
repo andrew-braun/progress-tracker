@@ -13,6 +13,26 @@
     "mainCategory": "Code",
     "subCategory": "JavaScript",
     "focus": "Gatsby",
+    "description": "GeoBeerMap.com: added data, worked on responsiveness, added social icons with react-icons, made sidebar scrollable, added social buttons component.",
+    "hours": 4,
+    "confidence": 0.85,
+    "keywords": ""
+},
+    {
+    "date": "12-08-2020",
+    "mainCategory": "Language",
+    "subCategory": "Spanish",
+    "focus": "Reading",
+    "description": "Finished three Duolingo lessons",
+    "hours": 0.4,
+    "confidence": 0.85,
+    "keywords": ""
+},   
+    {
+    "date": "12-08-2020",
+    "mainCategory": "Code",
+    "subCategory": "JavaScript",
+    "focus": "Gatsby",
     "description": "GeoBeerMap.com: generated pages for entries, wrote GraphQL queries",
     "hours": 1.5,
     "confidence": 0.6,
