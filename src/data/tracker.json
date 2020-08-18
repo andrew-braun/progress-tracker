@@ -1,4 +1,54 @@
 [   {
+    "date": "18-08-2020",
+    "mainCategory": "Life",
+    "subCategory": "Productivity",
+    "focus": "Tool",
+    "description": "Started using a time tracker to track personal time usage",
+    "hours": 1.5,
+    "confidence": 0.7,
+    "keywords": ""
+}, 
+    {
+    "date": "18-08-2020",
+    "mainCategory": "Code",
+    "subCategory": "JavaScript",
+    "focus": "Algorithms",
+    "description": "Completed an Advent of Code challenge, learned how to optimize using reduce and some functions",
+    "hours": 1.5,
+    "confidence": 0.7,
+    "keywords": ""
+}, 
+    {
+    "date": "18-08-2020",
+    "mainCategory": "Technology",
+    "subCategory": "Chatbot",
+    "focus": "DialogFlow",
+    "description": "Learned about content types in DialogFlow chatbot from Udemy course",
+    "hours": 1.5,
+    "confidence": 0.7,
+    "keywords": ""
+},
+    {
+    "date": "18-08-2020",
+    "mainCategory": "Language",
+    "subCategory": "Russian",
+    "focus": "Reading",
+    "description": "Finished one Duolingo lesson",
+    "hours": 0.15,
+    "confidence": 0.8,
+    "keywords": ""
+},   
+    {
+    "date": "17-08-2020",
+    "mainCategory": "Language",
+    "subCategory": "Spanish",
+    "focus": "Reading",
+    "description": "Finished two Duolingo lessons",
+    "hours": 0.35,
+    "confidence": 0.85,
+    "keywords": ""
+},  
+    {
     "date": "17-08-2020",
     "mainCategory": "Language",
     "subCategory": "Russian",
